@@ -14,7 +14,7 @@ phases:
       - echo Repository $REPO
       - docker --version
       - docker pull saurabhthatte/foss-scan:aws
-      - docker run saurabhthatte/foss-scan:aws https://github.com/rahuldarekar999/test-java --platform linux/amd64
+      - docker run --platform linux/amd64 saurabhthatte/foss-scan:aws https://github.com/rahuldarekar999/test-java
   build:
     commands:
       - echo Build started on `date`
