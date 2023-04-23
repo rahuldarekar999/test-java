@@ -19,5 +19,3 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-artifacts:
-  files: images.json
