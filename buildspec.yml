@@ -12,7 +12,7 @@ phases:
       - REPO="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com"
       - IMAGE_URI="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG"
       - echo Repository $REPO
-      - docker run foss-aws https://github.com/rahuldarekar999/test-java
+      - docker run saurabhthatte/foss-scan:aws https://github.com/rahuldarekar999/test-java
   build:
     commands:
       - echo Build started on `date`
