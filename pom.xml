@@ -198,6 +198,7 @@
 <servlet-api.version>4.0.1</servlet-api.version>
 <slf4j.version>1.7.30</slf4j.version>
 <snakeyaml.version>1.25</snakeyaml.version>
+  
 <solr.version>8.2.0</solr.version>
 <spring-amqp.version>2.2.5.RELEASE</spring-amqp.version>
 <spring-batch.version>4.2.1.RELEASE</spring-batch.version>
@@ -230,7 +231,6 @@
 <xml-maven-plugin.version>1.0.2</xml-maven-plugin.version>
 <xmlunit2.version>2.6.4</xmlunit2.version>
 </properties>
-
 <dependencies>
 <dependency>
 <groupId>org.springframework.boot</groupId>
