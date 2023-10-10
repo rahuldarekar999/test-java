@@ -213,7 +213,7 @@
 <spring-retry.version>1.2.5.RELEASE</spring-retry.version>
 <spring-security.version>5.2.2.RELEASE</spring-security.version>
 <spring-session-bom.version>Corn-SR2</spring-session-bom.version>
-<spring-ws.version>3.0.8.RELEASE</spring-ws.version>
+<spring-ws.version>3.1.0</spring-ws.version>
 <sqlite-jdbc.version>3.28.0</sqlite-jdbc.version>
 <sun-mail.version>${jakarta-mail.version}</sun-mail.version>
 <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
@@ -495,12 +495,12 @@
 <dependency>
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-starter-oauth2-client</artifactId>
-<version>2.2.6.RELEASE</version>
+<version>2.5.0</version>
 </dependency>
 <dependency>
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
-<version>2.2.6.RELEASE</version>
+<version>2.3.5.RELEASE</version>
 </dependency>
 <dependency>
 <groupId>org.springframework.boot</groupId>
@@ -520,7 +520,7 @@
 <dependency>
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-starter-security</artifactId>
-<version>2.2.6.RELEASE</version>
+<version>2.5.0</version>
 </dependency>
 <dependency>
 <groupId>org.springframework.boot</groupId>
