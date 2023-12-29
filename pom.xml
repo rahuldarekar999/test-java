@@ -22,6 +22,7 @@
 </developer>
 </developers>
 <scm>
+  
 <url>https://github.com/spring-projects/spring-boot</url>
 </scm>
 <properties>
